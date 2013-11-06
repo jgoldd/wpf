@@ -63,33 +63,3 @@ var withTax = taxTotal + withoutTax;
 
 //print out of price with discount with tax and without tax
 console.log("Your" + " " + descriptionOfItem + " " + "was originally" + " " + "$" + priceForItem + " " + "but after a" + " " + discountOnItem + "%" + " " + "discount, it is now" + " " + "$" + withoutTax + " " + "without tax, and" + " " + "$" + withTax + " " + "with tax.")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
