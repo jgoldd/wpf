@@ -1,14 +1,21 @@
+/*
+	Assignment: Expressions worksheet
+	
+	Author: Justin Goldman
+	
+	Date: November 5, 2013
+	
+*/
+
 //Age of Sparky in dog years based on actual age
 var humanYears = 2.5; //dogs age in human years 
-const dogAge = 7;
+const dogAge = 7; //dog years
 
 // multiply dogAge by humanYears & assign to age variable
 var age = humanYears * dogAge;
 
 //print out of "dog age" based on human years
 console.log("Spark is" + " " + humanYears + " " + "which is" + " " + age + " " + "in dog years.")
-
-
 
 
 
