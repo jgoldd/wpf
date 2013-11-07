@@ -9,3 +9,4 @@
 
 
 //Finding out monthly rent divided by number of people
+const monthlyRent = 1175;
