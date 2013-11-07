@@ -21,6 +21,7 @@ var tileAreaTotal = tileArea / areaSquareFeet;
 
 var areaTotal = areaWidth * areaHeight;
 
+var total = areaTotal / tileAreaTotal;
 
-console.log(tileAreaTotal);
+console.log("The total number of " + tileWidth + " x " + tileHeight + "that could fit in a " + areaWidth + " x " + areaHeight + "is " + total);
 
