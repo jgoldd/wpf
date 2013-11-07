@@ -17,6 +17,6 @@ var roomMates = prompt("Please enter amount of occupants:"); //Number of occupan
 
 //Calculate monthly rent for 4 people
 
-var monthlySplit = monthlyRent + Number(electricBill) + Number(utilityBill);
+var monthlySplit = monthlyRent + Number(electricBill) + Number(utilityBill) + Number(cableBill);
 
 console.log(monthlySplit);
