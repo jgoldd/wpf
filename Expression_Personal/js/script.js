@@ -9,4 +9,5 @@
 
 
 //Finding out monthly rent divided by number of people
-const monthlyRent = 1175;
+const monthlyRent = 1175; //Monthly rent constant
+var electricBill = 110; //Electric bill variable 
