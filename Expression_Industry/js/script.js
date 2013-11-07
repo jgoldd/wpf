@@ -11,3 +11,4 @@
 
 var tileWidth = prompt("What is the width (inches) of the image:")
 var tileHeight = prompt("What is the Height (inches) of the image:")
+var areaWidth = prompt("What is the width (feet) of the area:")
