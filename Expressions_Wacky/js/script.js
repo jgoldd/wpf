@@ -14,7 +14,7 @@ var originalHeight = prompt("Enter start image height (px):"); // starting image
 var originalWidth = prompt("Enter start image width: (px)"); //starting image demensions width
 var newWidth = prompt("Enter target deminsion width: (px)"); //new deminsion width
 var newImage = "Your new image is "; // Concatenating for print out
-var pixels = " pixels.";
+var pixels = " pixels."; //Concatenating for print out 
 
 
 //divide original height by original width to get new height
