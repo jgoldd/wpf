@@ -12,3 +12,7 @@
 var originalHeight = prompt("Enter start image height:"); // starting image demensions height
 var originalWidth = prompt("Enter start image width:"); //starting image demensions width
 var newWidth = prompt("Enter target deminsion width:"); //new deminsion width
+
+
+// divide original height by original width to get aspect ratio number 1
+var newHeight = (originalHeight / originalWidth) * newWidth;
