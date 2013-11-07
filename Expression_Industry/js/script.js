@@ -21,10 +21,11 @@ var tileArea = tileWidth * tileHeight;
 var tileAreaTotal = tileArea / areaSquareFeet;
 
 
-//Multiply area width times height
+//Multiply area width times height to get area
 var areaTotal = areaWidth * areaHeight;
-
+//Divide the area total by tile area total 
 var total = areaTotal / tileAreaTotal;
 
+//print our of how many images fit in a area
 console.log("The total number of " + tileWidth + " x " + tileHeight + " images that could fit in a " + areaWidth + " x " + areaHeight + " area is " + total);
 
