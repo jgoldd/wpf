@@ -48,7 +48,7 @@ var total = groceryTotals[0] + groceryTotals[1] + groceryTotals[2] + groceryTota
 var average = total/5;
 
 //print out of average spent of groceries and total
-console.log("You have spent a total of" + " " + total + " " + "on groceries over 5 weeks. That is an average of" + " " + average + " " + "per week.") 
+console.log("You have spent a total of" + " " + "$" + total + " " + "on groceries over 5 weeks. That is an average of" + " " + "$" + average + " " + "per week.") 
 
 
 
