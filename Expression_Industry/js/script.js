@@ -17,8 +17,11 @@ const areaSquareFeet = 144; //Square feet in 12 x 12 constant
 
 //Calculate area of the tile 
 var tileArea = tileWidth * tileHeight;
+//Divide tile area by square foot - 12 x 12 = 144 inches
 var tileAreaTotal = tileArea / areaSquareFeet;
 
+
+//Multiply area width times height
 var areaTotal = areaWidth * areaHeight;
 
 var total = areaTotal / tileAreaTotal;
