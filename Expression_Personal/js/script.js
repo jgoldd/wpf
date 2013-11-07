@@ -21,3 +21,4 @@ var monthlyTotal = monthlyRent + Number(electricBill) + Number(utilityBill) + Nu
 var monthlySplit = monthlyTotal/roomMates;
 
 
+console.log("Your total for rent is " + "$" + monthlyTotal;
