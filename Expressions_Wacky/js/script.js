@@ -8,14 +8,14 @@
 */
 
 
-//Aspect ratio of original image to new image si
+//Aspect ratio of original image to new image size
 var originalHeight = prompt("Enter start image height (px):"); // starting image demensions height
 var originalWidth = prompt("Enter start image width: (px)"); //starting image demensions width
 var newWidth = prompt("Enter target deminsion width: (px)"); //new deminsion width
 
 
-//divide original height by original width to get aspect ratio number 1
+//divide original height by original width to get new height
 var newHeight = (originalHeight / originalWidth) * newWidth;
 
-
-console.log("Your new height is " + newHeight + " pixels.");
+//print out to console new height 
+console.log("Your new image height is " + newHeight + " pixels.");
