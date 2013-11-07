@@ -9,4 +9,5 @@
 
 
 //Aspect ratio of original image to new image sizes
-var originalHeight = prompt ("Enter start image height:"); // starting image demensions height
+var originalHeight = prompt("Enter start image height:"); // starting image demensions height
+var originalWidth = prompt("Enter start image width:"); //starting image demensions width
