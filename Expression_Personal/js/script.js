@@ -20,4 +20,5 @@ var monthlyTotal = monthlyRent + Number(electricBill) + Number(utilityBill) + Nu
 //Divided total by number of occupants
 var monthlySplit = monthlyTotal/roomMates;
 
+//print out total off rent and total split among occupants
 console.log("Your total for rent is " + "$" + monthlyTotal + " and split between " + roomMates + " occupants it is " + "$" + monthlySplit + " a piece");
