@@ -16,3 +16,5 @@ var newWidth = prompt("Enter target deminsion width:"); //new deminsion width
 
 // divide original height by original width to get aspect ratio number 1
 var newHeight = (originalHeight / originalWidth) * newWidth;
+
+console.log(newHeight)
