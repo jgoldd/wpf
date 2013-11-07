@@ -12,7 +12,7 @@ const monthlyRent = 1175; //Monthly rent constant
 var electricBill = prompt("Please enter Electric Bill amount:"); //Electric bill variable in prompt 
 var utilityBill = prompt("Please enter Utility Bill amount:"); //Utility bill variable in prompt
 var cableBill = prompt("Please enter Cable Bill amount:"); //Cable bill variable in prompt
-var roomMates = prompt("Please enter amount of occupants in household:"); //Number of occupants in home in prompt
+var roomMates = prompt("Please enter number of occupants in household:"); //Number of occupants in home in prompt
 
 //Adding up electric bill/utilitybill/cablebill
 var monthlyTotal = monthlyRent + Number(electricBill) + Number(utilityBill) + Number(cableBill);
