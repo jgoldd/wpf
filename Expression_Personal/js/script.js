@@ -15,8 +15,9 @@ var utilityBill = prompt("Please enter Utility Bill amount:"); //utility bill va
 var cableBill = prompt("Please enter Cable Bill amount:"); //Cable bill variable in prompt
 var roomMates = prompt("Please enter amount of occupants:"); //Number of occupants in home in prompt
 
-//Calculate monthly rent for 4 people
+//Adding up electric bill/utilitybill/cablebill
+var monthlyTotal = monthlyRent + Number(electricBill) + Number(utilityBill) + Number(cableBill);
+//Divided total by number of occupants
+var monthlySplit = monthlyTotal/roomMates;
 
-var monthlySplit = monthlyRent + Number(electricBill) + Number(utilityBill) + Number(cableBill);
 
-console.log(monthlySplit);
