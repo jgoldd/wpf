@@ -19,5 +19,8 @@ const areaSquareFeet = 144;
 var tileArea = tileWidth * tileHeight;
 var tileAreaTotal = tileArea / areaSquareFeet;
 
+var areaTotal = areaWidth * areaHeight;
+
+
 console.log(tileAreaTotal);
 
