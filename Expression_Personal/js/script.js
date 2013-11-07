@@ -10,6 +10,8 @@
 
 //Finding out monthly rent divided by number of people
 const monthlyRent = 1175; //Monthly rent constant
-var electricBill = 110; //Electric bill variable 
-var utilityBill = 110; //utility bill variable
-var cableBill = 80; //Cable bill variable 
+var electricBill = prompt("Please enter Electric Bill amount:"); //Electric bill variable in prompt 
+var utilityBill = prompt("Please enter Utility Bill amount:"); //utility bill variable in prompt
+var cableBill = prompt("Please enter Cable Bill amount:"); //Cable bill variable in prompt
+
+//Calculate 
