@@ -12,4 +12,4 @@
 const monthlyRent = 1175; //Monthly rent constant
 var electricBill = 110; //Electric bill variable 
 var utilityBill = 110; //utility bill variable
-
+var cableBill = 80; //Cable bill variable 
