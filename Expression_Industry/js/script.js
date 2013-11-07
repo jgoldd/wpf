@@ -7,6 +7,3 @@
 	
 */
 
-//Converting PX to EM and Percentages based on Font Size 16px
-
-const fontSizePx = 16;
