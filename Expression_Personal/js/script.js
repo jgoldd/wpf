@@ -18,10 +18,10 @@ var roomMates = ["Justin", "Josh", "Alex", "Ryan"] //added array for bills split
 //Adding up electric bill/utilitybill/cablebill
 var monthlyTotal = monthlyRent + Number(electricBill) + Number(utilityBill) + Number(cableBill);
 //Divided total monthly bill by number of occupants
-var monthlySplit = monthlyTotal/roomMates;
+var monthlySplit = monthlyTotal/roomMateTotal;
 //Add cable and electric bill and seprate for Justin to Pay
-
+var utilityBillSeprate = (Number(electricBill) + Number(cableBill))/roomMateTotal;
 
 
 //print out monthly total and total split among occupants
-console.log("Your total rent is " + "$" + monthlyTotal + " and split between " + roomMateTotal + " occupants it is " + "$" + monthlySplit + " a piece." roomMates[0] + " recieves " + utilityBillSeprate + "from " + roomMates[1] + ", " + roomMates[2] + ", " roomMates[3] + "for Comcast and Electricity.");
+console.log("Your total rent is " + "$" + monthlyTotal + " and split between " + roomMateTotal + " occupants it is " + "$" + monthlySplit + " a piece. " + roomMates[0] + " recieves " + utilityBillSeprate + " from " + roomMates[1] + ", " + roomMates[2] + ", " + roomMates[3] + " for Comcast and Electricity.");
