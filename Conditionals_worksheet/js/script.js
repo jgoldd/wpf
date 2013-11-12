@@ -3,7 +3,7 @@
 	
 	Author: Justin Goldman
 	
-	Date: November 5, 2013
+	Date: November 12, 2013
 	
 */
 //Collect MPG, Gas Tank Percentage left, and Gas Tank Capacity 
