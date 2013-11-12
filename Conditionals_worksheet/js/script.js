@@ -7,9 +7,9 @@
 	
 */
 //Collect MPG, Gas Tank Percentage left, and Gas Tank Capacity 
-var carMpg = prompt("Miles per gallon?", "MPG");
-var gasPercentage = prompt("Gas percentage left in tank?", "%");
-var tankCapacity = prompt("Car's gas tank capacity?(in Gallons)");
+var carMpg = 32;
+var gasPercentage = .25;
+var tankCapacity = 30;
 var milesToGo = 200;
 //
 var gasMedian = carMpg * tankCapacity;
