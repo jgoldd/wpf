@@ -6,6 +6,9 @@
 	Date: November 12, 2013
 	
 */
+
+//Group 1 - Last Chance For Gas!
+
 //Collect MPG, Gas Tank Percentage left, and Gas Tank Capacity 
 var carMpg = 32;
 var gasPercentage = .25;
@@ -23,5 +26,40 @@ if(gasLeft > milesToGo){
 	
 }else {
 	//if it's less or equal to 200
-    console.log("You only have " + gasLeft + " gallons of gas in your tank, better get gas now while you can");
+    console.log("You only have " + gasLeft + " gallons of gas in your tank, better get gas now while you can.");
 }
+
+
+
+//Group 2 - Check the Login
+
+//Set Username & Password for Correct and entered
+var userName = "Admin";
+var passWord = "snowseason";
+var correctUserName = "Admin1";
+var correctPassWord = "snowseason";
+
+//If username is correct
+if(userName === correctUserName && passWord === correctPassWord){
+	console.log("Welcome, " + correctUserName + "!");
+}else if(passWord === correctPassWord){
+	//If user name does not match
+	console.log("User not found. Try Again.");
+}else{
+	//if password doesn't match
+	console.log("Password does not match our records.");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
