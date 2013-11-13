@@ -56,10 +56,12 @@ if(userName === correctUserName && passWord === correctPassWord){
 
 var tirePressures = [27,27,31,31];
 //If front two tires are the same and back two tires are the same
- if(tirePressures[0] === tirePressures[1] && tirePressures[3] === tirePressures[4]){
-	 console.log("The tires pass spec!");
-	 
-}
+ if(tirePressures[0] === tirePressures[1] && tirePressures[2] === tirePressures[3]){
+	 console.log("The tires pass spec!");	 
+}else{
+	 console.log("Get your tires checked out!");
+ }
+
 
 
 
