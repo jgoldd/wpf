@@ -51,9 +51,15 @@ if(userName === correctUserName && passWord === correctPassWord){
 }
 
 
+//Group 3 - Tire Pressure I
+//Tire pressure from front left, front right, back left, back right
 
-
-
+var tirePressures = [27,27,31,31];
+//If front two tires are the same and back two tires are the same
+ if(tirePressures[0] === tirePressures[1] && tirePressures[3] === tirePressures[4]){
+	 console.log("The tires pass spec!");
+	 
+}
 
 
 
