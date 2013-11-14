@@ -17,12 +17,11 @@ var totalClicks = totalClickPerAd * totalAds; //total clicks per ad times number
 var lowPagePay = totalClicks * adPay[0]; //overall clicks times pay of .20
 var highPagePay = totalClicks * adPay[1]; //overall clicks times pay of .50
 
-if (validation === totalClickPerAd){
-	console.log("You did not enter amount of Ad clicks per Ad.");
-}else if(validation ==== totalAds){
-	console.log("You did not enter a total number of Ads.");
-}
-if(totalClicks >= adPayView[0] && totalClicks < adPayView[1]) { //if total clicks is greater or equal to 200 print to console && total clicks is less than 400
+if (validation === totalClickPerAd){ //check user input in first prompt
+	console.log("You did not enter amount of monnthly Ad clicks per Ad."); //print to console if no input
+}else if(validation === totalAds){ //check user input in secound prompt
+	console.log("You did not enter a total number of Ads."); //print to console if no input
+}else if(totalClicks >= adPayView[0] && totalClicks < adPayView[1]) { //if total clicks is greater or equal to 200 print to console && total clicks is less than 400
 	console.log("You had a total of " + totalClicks + " clicks from " + totalAds + " Ads. You made " + "$" + lowPagePay + " from Ad clicks. ");
 }else if(totalClicks >= adPayView[1]) { //if total clicks is greater or equal to 400 print to console
 	console.log("You had a total of " + totalClicks + " clicks from " + totalAds + " Ads. You made " + "$" + highPagePay + " from Ad clicks.");
