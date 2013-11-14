@@ -14,4 +14,4 @@ const timeLeft = 2; //time left to make it to meeting. can be changed based on t
 
 var time = distance / mpg; //distance to walk by walking mpg for total time to walk
 
-
+(time < timeLeft) ? console.log("Yes! You will make it! You have " + timeLeft + "hours to make it to the meeting and it will only take you" + time + " hours.") : console.log("No, you will not make it on time.");
