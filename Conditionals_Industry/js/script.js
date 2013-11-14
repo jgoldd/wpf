@@ -20,6 +20,6 @@ if(totalClicks >= adPayView[0] && totalClicks < adPayView[1]) { //if total click
 	console.log("You had a total of " + totalClicks + " clicks from " + totalAds + " Ads. You made " + lowPagePay + " from Ad clicks. ");
 }else if(totalClicks >= adPayView[1]) { //if total clicks is greater or equal to 400 print to console
 	console.log("You had a total of " + totalClicks + " clicks from " + totalAds + " Ads. You made " + highPagePay + " from Ad clicks. ");
-}else {
+}else { //if under 200 clicks you get nothing, print out
 	console.log("You did not make 200 clicks or over this month, you only had " + totalClicks + " clicks. Which there is now pay out for under 200 clicks.");
 }
