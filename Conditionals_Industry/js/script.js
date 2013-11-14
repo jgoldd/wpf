@@ -14,5 +14,6 @@ var adPayView = [200, 400];
 
 var totalClicks = totalClickPerAd * totalAds; //total clicks per ad times number of ads
 var lowPagePay = totalClicks * adPay[0]; //overall clicks times pay of .20
+var highPagePay = totalClicks * adPay[1]; //overall clicks times pay of .50
 
  
