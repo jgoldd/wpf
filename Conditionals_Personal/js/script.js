@@ -15,6 +15,6 @@ var validation = ""; //validation of user input
 var expensesTotal = rentTotal + otherTotal; //Expenses added together
 
 if(expensesTotal > totalIncome){
-	
+	console.log("You can survive this month! You will spend " + "$" + expensesTotal + " in rent and other expenses. You will have " + "$" + leftOvers + " left for the month.");
 	
 }
