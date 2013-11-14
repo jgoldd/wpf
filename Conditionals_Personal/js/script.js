@@ -10,3 +10,11 @@
 var totalIncome = prompt("What is your monthly income"); //Check from SSI check
 var rentTotal = prompt("What is your rent total?"); //Rent total amount
 var otherTotal = prompt("Any other necessary expenses?"); //Any other expenses
+var validation = ""; //validation of user input
+
+var expensesTotal = rentTotal + otherTotal; //Expenses added together
+
+if(expensesTotal > totalIncome){
+	
+	
+}
