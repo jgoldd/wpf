@@ -16,4 +16,7 @@ var totalClicks = totalClickPerAd * totalAds; //total clicks per ad times number
 var lowPagePay = totalClicks * adPay[0]; //overall clicks times pay of .20
 var highPagePay = totalClicks * adPay[1]; //overall clicks times pay of .50
 
+if (totalClicks  >= adPayView[0]) { //if total clicks is greater or equal to 200 print to console
+
+}
  
