@@ -15,4 +15,4 @@ var validation = ""; //validation of user input in prompt
 
 var time = distance / mpg; //distance to walk by walking mpg for total time to walk
 
-(time < timeLeft) ? console.log("Yes! You will make it! You have " + timeLeft + "hours to make it to the meeting and it will only take you" + time + " hours.") : console.log("No, you will not make it on time.");
+(validation === distance && validation === mpg) ? console.log("You did not enter a distance or an average walking speed.") : (time < timeLeft) ? console.log("Yes! You will make it! You have " + timeLeft + "hours to make it to the meeting and it will only take you " + time + " hour(s).") : console.log("No, you will not make it on time.");
