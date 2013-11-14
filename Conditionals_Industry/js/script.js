@@ -12,5 +12,7 @@ var totalAds = prompt("What is the total number of Ads?");
 var adPay = [.20, .50];
 var adPayView = [200, 400];
 
-var totalClicks = totalClickPerAd * totalAds; //total clicks times number of ads
+var totalClicks = totalClickPerAd * totalAds; //total clicks per ad times number of ads
+var lowPagePay = totalClicks * adPay[0]; //overall clicks times pay of .20
+
  
