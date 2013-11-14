@@ -16,8 +16,12 @@ var expensesTotal = Number(rentTotal) + Number(otherTotal); //Expenses added tog
 var leftOvers = totalIncome - expensesTotal; //Total left over
 
 if(validation === totalIncome){
-	}else if (validation === totalIncome){
-	console.log("You did not enter information into one or more fields.");
+	console.log("You did not enter a " + totalIncome " monthly income.");
+}else if(validation === rentTotal){
+	console.log("You did not enter a " + rentTotal " rent total.");
+}
+	
+	
 
 }else {
 	
