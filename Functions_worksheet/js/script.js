@@ -26,9 +26,10 @@ console.log("----------- Stung! -----------");
 //How many Bee stings to kill an animal
 
 var weight = 10; //weight variable
+var stingsPer = 8.666666667;
 
 console.log("It takes " + + " bee stings to kill an animal."); //console print out
 
 function beeStings(){
-	return;
+	return stingsPer * weight; //equation return for Bee Stings Per Pound
 }
