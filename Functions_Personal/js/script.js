@@ -22,4 +22,4 @@ var calcPay = function(g, mi, mp){ //set-up function andd parameters
 
 var amount = calcPay(gasPrice, milesTraveled, mpg); //return var for print of function
 
-console.log("You owe around " + "$" + amount); //Print out to console
+console.log("You owe around " + "$" + amount + " for the ride."); //Print out to console
