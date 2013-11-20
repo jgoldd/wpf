@@ -10,3 +10,8 @@
 var pi = 3.14159265359; //Pi variable
 var radius = 4; //radius 
 
+function circleCir(p,r){
+	
+
+	
+}
