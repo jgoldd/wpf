@@ -1,14 +1,21 @@
+/*
+	Assignment: Expressions worksheet
+	
+	Author: Justin Goldman
+	
+	Date: November 5, 2013
+	
+*/
+
 //Age of Sparky in dog years based on actual age
 var humanYears = 2.5; //dogs age in human years 
-const dogAge = 7;
+const dogAge = 7; //dog years
 
 // multiply dogAge by humanYears & assign to age variable
 var age = humanYears * dogAge;
 
 //print out of "dog age" based on human years
 console.log("Spark is" + " " + humanYears + " " + "which is" + " " + age + " " + "in dog years.")
-
-
 
 
 
@@ -41,7 +48,7 @@ var total = groceryTotals[0] + groceryTotals[1] + groceryTotals[2] + groceryTota
 var average = total/5;
 
 //print out of average spent of groceries and total
-console.log("You have spent a total of" + " " + total + " " + "on groceries over 5 weeks. That is an average of" + " " + average + " " + "per week.") 
+console.log("You have spent a total of" + " " + "$" + total + " " + "on groceries over 5 weeks. That is an average of" + " " + "$" + average + " " + "per week.") 
 
 
 
@@ -63,33 +70,3 @@ var withTax = taxTotal + withoutTax;
 
 //print out of price with discount with tax and without tax
 console.log("Your" + " " + descriptionOfItem + " " + "was originally" + " " + "$" + priceForItem + " " + "but after a" + " " + discountOnItem + "%" + " " + "discount, it is now" + " " + "$" + withoutTax + " " + "without tax, and" + " " + "$" + withTax + " " + "with tax.")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
