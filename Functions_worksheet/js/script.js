@@ -18,14 +18,13 @@ console.log("The Circumference of the Circle is " + circum + "."); //console pri
 function circleCir(p,r){ //set-up for function and set parameters 
 	
 	return 2*p*r; //equation return for circle circumference 
-	
 }
-
 
 
 console.log("----------- Stung! -----------");
 
 //How many Bee stings to kill an animal
 
-var weight = 10;
+var weight = 10; //weight variable
 
+console.log("It takes " + + " bee stings to kill an animal."); //console print out
