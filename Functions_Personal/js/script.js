@@ -15,3 +15,7 @@ var milesTraveled = prompt("How many Miles did you travel?"); //Miles Traveled
 var mpg = prompt("How man Miles Per Gallon does the car approximately recieve?")//MPG of car
 
 
+var calcPay = function(){
+	
+	
+}
