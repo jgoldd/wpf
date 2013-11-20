@@ -21,6 +21,6 @@ function worthIt(){
 	}else if (average === weekBudget){
 		console.log("The average pay will meet the budget equally! Be careful!");
 	}else {
-		
+		console.log("Sorry! This client wasn't worth it! Your average weekly pay is " + "$" + average);
 	}
 }
