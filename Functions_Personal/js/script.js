@@ -19,3 +19,5 @@ var calcPay = function(g, mi, mp){ //set-up function andd parameters
 	var price = calc * g; //set var for final price
 	return price; //return final price
 }
+
+var amount = calcPay(gasPrice, milesTraveled, mpg); 
