@@ -18,5 +18,9 @@ var average = budget / length; //Average pay per week
 function worthIt(){
 	if(average > weekBudget){
 	console.log("Congratulations! The client was worth it. Your average weekly pay is " + "$" + average)
-	}else if (average < weekBudget)
+	}else if (average === weekBudget){
+		console.log("The average pay will meet the budget equally! Be careful!");
+	}else {
+		
+	}
 }
