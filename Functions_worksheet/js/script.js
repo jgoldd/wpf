@@ -27,6 +27,7 @@ console.log("----------- Stung! -----------");
 
 var weight = 10; //weight variable
 var stingsPer = 8.666666667;
+var death = beeStings();
 
 console.log("It takes " + + " bee stings to kill an animal."); //console print out
 
