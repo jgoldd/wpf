@@ -13,7 +13,10 @@ var budget = prompt("What is the total budget of the project?"); //total price o
 var length = prompt("Length of project in weeks?"); //Number of weeks worked on project
 const weekBudget = 1000; //Weekly miniumum 
 
+var average = budget / length; //Average pay per week
+
 function worthIt(){
-	
-	
+	if(average > weekBudget){
+	console.log("Congratulations! The client was worth it. Your average weekly pay is " + "$" + average)
+	}
 }
