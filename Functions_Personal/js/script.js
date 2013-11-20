@@ -16,6 +16,7 @@ var mpg = prompt("How man Miles Per Gallon does the car approximately recieve?")
 
 
 var calcPay = function(){
-	
-	
+	var calc = milesTraveled / mpg;
+	var price = calc * gasPrice;
+	return price;
 }
