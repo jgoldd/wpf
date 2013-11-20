@@ -7,3 +7,4 @@
 	
 */
 //circumference of a circle = 2 * Pi * R
+var pi = 3.14159265359;
