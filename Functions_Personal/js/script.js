@@ -20,4 +20,4 @@ var calcPay = function(g, mi, mp){ //set-up function andd parameters
 	return price; //return final price
 }
 
-var amount = calcPay(gasPrice, milesTraveled, mpg); 
+var amount = calcPay(gasPrice, milesTraveled, mpg); //return var for print of function
