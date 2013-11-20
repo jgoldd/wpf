@@ -15,12 +15,14 @@ const weekBudget = 1000; //Weekly miniumum
 
 var average = budget / length; //Average pay per week
 
-function worthIt(){
-	if(average > weekBudget){
-	console.log("Congratulations! The client was worth it. Your average weekly pay is " + "$" + average)
+function worthIt(){ //set-up function for is it worth it
+	if(average > weekBudget){ //if average is greater than weekly budget
+	console.log("Congratulations! The client was worth it. Your average weekly pay is " + "$" + average + ".")
 	}else if (average === weekBudget){
 		console.log("The average pay will meet the budget equally! Be careful!");
 	}else {
-		console.log("Sorry! This client wasn't worth it! Your average weekly pay is " + "$" + average);
+		console.log("Sorry! This client wasn't worth it! Your average weekly pay is " + "$" + average + ".");
 	}
 }
+
+worthIt();
