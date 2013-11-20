@@ -11,3 +11,4 @@
 
 
 var gasPrice = prompt("What is the Price of Gas Per Gallon?"); //Miles Per Gallon Cost
+var milesTraveled = prompt("How many Miles did you travel?"); //Miles Traveled
