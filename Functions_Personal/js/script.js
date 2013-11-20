@@ -3,7 +3,8 @@
 	
 	Author: Justin Goldman
 	
-	Date: November 19, 2013
+	Date: November 20, 2013
 	
 */
 
+//amount of gas to give to a friend for a ride
