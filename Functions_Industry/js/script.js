@@ -7,6 +7,7 @@
 	
 */
 
-//Is a client worth it based on a $1000 a week minimum 
+//was a client worth it based on a $1000 a week minimum 
 
-var budget = prompt("What is the total budget?"); //total price of project
+var budget = prompt("What is the total budget of the project?"); //total price of project
+var length = prompt("Length of project in weeks?"); //Number of weeks worked on project
