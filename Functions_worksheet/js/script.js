@@ -28,3 +28,7 @@ console.log("----------- Stung! -----------");
 var weight = 10; //weight variable
 
 console.log("It takes " + + " bee stings to kill an animal."); //console print out
+
+function beeStings(){
+	return;
+}
