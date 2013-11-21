@@ -8,8 +8,8 @@
 */
 
 //will you save money paying yearly
-var priceMonthly = prompt("Price monthly?"); 
-var priceYearly = prompt("Price for yearly?");
+var priceMonthly = prompt("Price monthly?"); //price monthly variable
+var priceYearly = prompt("Price for yearly?"); //price yearly variable
 
 var priceAverage = priceMonthly * 12;
 
