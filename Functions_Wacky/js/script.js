@@ -13,4 +13,4 @@ var priceYearly = prompt("Price for yearly?");
 
 var priceAverage = priceMonthly * 12;
 
-(priceAverage === priceYearly) ? console.log("You will be paying the same amount for yearly as monthly.")
+(priceAverage === priceYearly) ? console.log("You will be paying the same amount for yearly as monthly.") : (priceAverage > priceYearly) ? console.log("You will be paying more monthly. Go with the yearly!") : 
