@@ -9,4 +9,4 @@
 
 //will you save money paying yearly
 var priceMonthly = prompt("Price monthly?"); 
-
+var priceYearly = prompt("Price for yearly?");
