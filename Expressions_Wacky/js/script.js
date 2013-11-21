@@ -20,4 +20,4 @@ var newHeight = (originalHeight / originalWidth) * newWidth;
 
 //print out to console new height 
 console.log(newImage + newHeight + pixels);
->>>>>>> parent of beb769c... set-up wacky functions structure
+
