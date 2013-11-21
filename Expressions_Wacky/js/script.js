@@ -7,5 +7,6 @@
 	
 */
 
-
+//will you save money paying yearly
+var priceMonthly = prompt("Price monthly?"); 
 
